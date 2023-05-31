@@ -5,7 +5,7 @@ import { BiRightArrowAlt } from "react-icons/bi";
 const Hero = () => {
   return (
     <section className="w-full pt-[200px] pb-[30px]">
-      <div className="container grid lg:grid-cols-2 justify-between items-center gap-y-10">
+      <div className="container grid -2 justify-between items-center gap-y-10">
         <div className="flex flex-col gap-6">
           <h1
             className="text-4xl animate-bounce text-center md:text-6xl"
@@ -36,7 +36,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <img src={Logo} alt="" className="lg:w-[25rem] ml-auto" />
+        <img src={Logo} alt="" className="lg:w-[25rem] mx-auto" />
       </div>
     </section>
   );

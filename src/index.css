@@ -4,3 +4,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer {
+  ul.buy {
+    background: url(./assets/round.svg) center center no-repeat;
+    background-size: cover;
+  }
+}
