@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Hero from "./Components/Hero";
+import Buy from "./Components/Buy";
 
 const App = () => {
   useEffect(() => {
@@ -10,9 +11,10 @@ const App = () => {
   }, []);
 
   return (
-    <div className="min-h-screen overflow-hidden w-full bg-primary font-Primary relative text-white">
+    <div className="min-h-screen overflow-hidden w-full bg-white font-Primary relative text-primary">
       <Header />
       <Hero />
+      <Buy />
     </div>
   );
 };

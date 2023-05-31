@@ -1,10 +1,10 @@
 import React from "react";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/bank.jpg";
 import { BiRightArrowAlt } from "react-icons/bi";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen w-full pt-[200px] pb-[30px]">
+    <section className="w-full pt-[200px] pb-[30px]">
       <div className="container grid lg:grid-cols-2 justify-between items-center gap-y-10">
         <div className="flex flex-col gap-6">
           <h1
@@ -12,13 +12,13 @@ const Hero = () => {
             data-aos="fade-right"
             data-aos-duration="1500"
           >
-            Bank of <span className="text-china">China</span>: Where Tradition
+            Bank of <span className="text-black">China</span>: Where Tradition
             Meets Crypto-craziness!
           </h1>
           <div className="flex flex-col md:flex-row gap-4 items-center justify-center">
             <a
               href=""
-              className="px-6 py-3 flex items-center gap-2 bg-china hover:bg-transparent hover:text-china hover:ring-primary text-black text-3xl ring ring-black"
+              className="px-6 py-3 flex items-center gap-2 bg-china hover:bg-transparent hover:text-primary hover:ring-primary text-black text-3xl ring ring-black"
               data-aos="fade-right"
               data-aos-duration="1500"
             >
@@ -27,7 +27,7 @@ const Hero = () => {
             </a>
             <a
               href=""
-              className="px-6 py-3 flex items-center gap-2 bg-china hover:bg-transparent hover:text-china hover:ring-primary text-black text-3xl ring ring-black"
+              className="px-6 py-3 flex items-center gap-2 bg-china hover:bg-transparent hover:text-primary hover:ring-primary text-black text-3xl ring ring-black"
               data-aos="fade-left"
               data-aos-duration="1500"
             >
